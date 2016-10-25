@@ -3,8 +3,16 @@
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 
-	.header-menu li{
+	.header-menu ul{
 		display: none;
+		margin: 0 auto;
+	}
+
+	.header-menu li{
+		display: block;
+		padding-bottom: 10px;
+		text-align: center;
+		padding-right: 40px;
 	}
 
 	.social-links{
@@ -32,10 +40,21 @@
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
 
+	.about-us-background h2{
+	left: 30%;
+	top: 35%;
+}
+
+
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+
+		.about-us-background h2{
+	left: 20%;
+	top: 35%;
+}
 
 }
 
@@ -69,5 +88,9 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-
+	
+	.header-menu ul{
+		display: block !important;
+	}
+	
 }

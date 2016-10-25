@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
  $(".toggle-menu").click(function() {
- 	$(".header-menu ul li").next().slideToggle();
+ 	$(this).next().slideToggle();
  });
 
 	//Попап менеджер FancyBox
@@ -10,7 +10,7 @@ $(document).ready(function() {
 	//<a class="fancybox" data-fancybox-group="group"><img src="image.jpg" /></a>
 	$(".fancybox").fancybox({
 		hideOnContentClick: false,
-		hideOnOverlayClick: true
+		hideOnOverlayClick: true,
 	});
 
 
